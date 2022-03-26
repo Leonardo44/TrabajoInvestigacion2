@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Geometric area</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_fragment_menu">Menú</string>
+    <string name="menu_exercise_one">Cálcular área de triángulo</string>
+    <string name="menu_exercise_two">Cálcular área de círculo</string>
+    <string name="menu_exercise_three">Cálcular área de cuadrado</string>
+    <string name="menu_exercise_four">Cálcular área de rectángulo</string>
 </resources>
