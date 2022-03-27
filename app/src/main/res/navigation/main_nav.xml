@@ -8,5 +8,38 @@
         android:id="@+id/menuFragment"
         android:name="com.llopez.geometricarea.menu.MenuFragment"
         android:label="@string/title_fragment_menu"
-        tools:layout="@layout/fragment_menu" />
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_circleAreaFragment"
+            app:destination="@id/circleAreaFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_rectangleAreaFragment"
+            app:destination="@id/rectangleAreaFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_squareAreaFragment"
+            app:destination="@id/squareAreaFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_triangleAreaFragment"
+            app:destination="@id/triangleAreaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/circleAreaFragment"
+        android:name="com.llopez.geometricarea.circle_area.CircleAreaFragment"
+        android:label="@string/menu_exercise_two"
+        tools:layout="@layout/fragment_circle_area" />
+    <fragment
+        android:id="@+id/rectangleAreaFragment"
+        android:name="com.llopez.geometricarea.rectangle_area.RectangleAreaFragment"
+        android:label="@string/menu_exercise_four"
+        tools:layout="@layout/fragment_rectangle_area" />
+    <fragment
+        android:id="@+id/squareAreaFragment"
+        android:name="com.llopez.geometricarea.square_area.SquareAreaFragment"
+        android:label="@string/menu_exercise_three"
+        tools:layout="@layout/fragment_square_area" />
+    <fragment
+        android:id="@+id/triangleAreaFragment"
+        android:name="com.llopez.geometricarea.triangle_area.TriangleAreaFragment"
+        android:label="@string/menu_exercise_one"
+        tools:layout="@layout/fragment_triangle_area" />
 </navigation>

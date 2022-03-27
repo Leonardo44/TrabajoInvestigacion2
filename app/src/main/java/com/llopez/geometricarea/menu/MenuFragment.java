@@ -36,50 +36,27 @@ public class MenuFragment extends Fragment {
         btnExerciseThree = layout.findViewById(R.id.btnToExerciseThree);
         btnExerciseFour = layout.findViewById(R.id.btnToExerciseFour);
 
-        btnExerciseOne.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                toExerciseOne();
-            }
-        });
-
-        btnExerciseTwo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                toExerciseTwo();
-            }
-        });
-
-        btnExerciseThree.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                toExerciseThree();
-            }
-        });
-
-        btnExerciseFour.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                toExerciseFour();
-            }
-        });
+        btnExerciseOne.setOnClickListener(v -> toExerciseOne());
+        btnExerciseTwo.setOnClickListener(v -> toExerciseTwo());
+        btnExerciseThree.setOnClickListener(v -> toExerciseThree());
+        btnExerciseFour.setOnClickListener(v -> toExerciseFour());
 
         return layout;
     }
 
     private void toExerciseOne() {
-        // NavHostFragment.findNavController(this).navigate(R.id.action_menuFragment_to_excerciseOneFragment);
+        NavHostFragment.findNavController(this).navigate(R.id.action_menuFragment_to_triangleAreaFragment);
     }
 
     private void toExerciseTwo() {
-        // NavHostFragment.findNavController(this).navigate(R.id.action_menuFragment_to_excerciseTwoFragment);
+        NavHostFragment.findNavController(this).navigate(R.id.action_menuFragment_to_circleAreaFragment);
     }
 
     private void toExerciseThree() {
-        // NavHostFragment.findNavController(this).navigate(R.id.action_menuFragment_to_excerciseOneFragment);
+        NavHostFragment.findNavController(this).navigate(R.id.action_menuFragment_to_rectangleAreaFragment);
     }
 
     private void toExerciseFour() {
-        // NavHostFragment.findNavController(this).navigate(R.id.action_menuFragment_to_excerciseTwoFragment);
+        NavHostFragment.findNavController(this).navigate(R.id.action_menuFragment_to_squareAreaFragment);
     }
 }

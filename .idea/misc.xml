@@ -5,7 +5,11 @@
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.30512820512820515" />
         <entry key="app/src/main/res/layout/app_bar.xml" value="0.30512820512820515" />
+        <entry key="app/src/main/res/layout/fragment_circle_area.xml" value="0.2796875" />
         <entry key="app/src/main/res/layout/fragment_menu.xml" value="0.29583333333333334" />
+        <entry key="app/src/main/res/layout/fragment_rectangle_area.xml" value="0.2796875" />
+        <entry key="app/src/main/res/layout/fragment_square_area.xml" value="0.2796875" />
+        <entry key="app/src/main/res/layout/fragment_triangle_area.xml" value="0.2796875" />
       </map>
     </option>
   </component>

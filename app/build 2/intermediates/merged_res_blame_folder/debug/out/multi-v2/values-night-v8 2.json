@@ -1,0 +1,58 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/leonardo/Documents/Universidad/DSM/TrabajoInvestigacion2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "/Users/leonardo/.gradle/caches/transforms-3/8c8bd08bd5ab439882315c15d3205b6b/transformed/material-1.5.0/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,47,51,52,53,54,55,56,57",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1455,1530,1641,1730,1831,1938,2045,2144,2247,2335,2459,2561,2663,2779,2881,2995,3123,3239,3361,3497,3617,3751,3871,3983,4198,4468,4592,4722,4844,4982,5116,5232",
+                        "endColumns": "74,110,88,100,106,106,98,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
+                        "endOffsets": "1525,1636,1725,1826,1933,2040,2139,2242,2330,2454,2556,2658,2774,2876,2990,3118,3234,3356,3492,3612,3746,3866,3978,4104,4310,4587,4717,4839,4977,5111,5227,5347"
+                    }
+                },
+                {
+                    "source": "/Users/leonardo/Documents/Universidad/DSM/TrabajoInvestigacion2/app/src/main/res/values-night/themes.xml",
+                    "from": {
+                        "startLines": "2,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "100,825",
+                        "endLines": "14,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "820,973"
+                    },
+                    "to": {
+                        "startLines": "9,48",
+                        "startColumns": "4,4",
+                        "startOffsets": "732,4315",
+                        "endLines": "21,50",
+                        "endColumns": "12,12",
+                        "endOffsets": "1450,4463"
+                    }
+                },
+                {
+                    "source": "/Users/leonardo/.gradle/caches/transforms-3/f791586eb8e3cddcf33fb36842d7675a/transformed/appcompat-1.4.1/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,46",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "100,170,254,338,434,536,638,4109",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "165,249,333,429,531,633,727,4193"
+                    }
+                }
+            ]
+        }
+    ]
+}

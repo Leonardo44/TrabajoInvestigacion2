@@ -7,4 +7,12 @@
     <string name="menu_exercise_two">Cálcular área de círculo</string>
     <string name="menu_exercise_three">Cálcular área de cuadrado</string>
     <string name="menu_exercise_four">Cálcular área de rectángulo</string>
+
+    <string name="btn_calculate">Calcular área</string>
+    <string name="reference_area_image">Imagen de referencia y fórmula</string>
+    <string name="error_message">Por favor, ingresar sus valores válidos</string>
+
+    <string name="circle_radius_edittext">Ingresar radio del círculo</string>
+    <string name="triangle_base_edittext">Ingresar base del triángulo</string>
+    <string name="triangle_height_edittext">Ingresar altura del triángulo</string>
 </resources>
