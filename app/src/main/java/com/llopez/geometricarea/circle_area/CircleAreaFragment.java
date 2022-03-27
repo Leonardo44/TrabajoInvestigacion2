@@ -55,12 +55,9 @@ public class CircleAreaFragment extends Fragment {
         });
 
         // Create the observer which updates the UI.
-        final Observer<Double> areaObserver = new Observer<Double>() {
-            @Override
-            public void onChanged(@Nullable final Double newValue) {
-                // Update the UI, in this case, a TextView.
-                tvAreaResult.setText("Área: " + String.format("%.2f", newValue));
-            }
+        final Observer<Double> areaObserver = newValue -> {
+            // Update the UI, in this case, a TextView.
+            tvAreaResult.setText("Área: " + String.format("%.2f", newValue));
         };
 
         // Observe the LiveData, passing in this activity as the LifecycleOwner and the observer.
