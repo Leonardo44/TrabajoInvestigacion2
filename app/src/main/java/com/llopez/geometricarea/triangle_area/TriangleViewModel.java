@@ -3,7 +3,6 @@ package com.llopez.geometricarea.triangle_area;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import com.llopez.geometricarea.model.Circle;
 import com.llopez.geometricarea.model.Triangle;
 
 public class TriangleViewModel extends ViewModel {

@@ -53,10 +53,10 @@ public class MenuFragment extends Fragment {
     }
 
     private void toExerciseThree() {
-        NavHostFragment.findNavController(this).navigate(R.id.action_menuFragment_to_rectangleAreaFragment);
+        NavHostFragment.findNavController(this).navigate(R.id.action_menuFragment_to_squareAreaFragment);
     }
 
     private void toExerciseFour() {
-        NavHostFragment.findNavController(this).navigate(R.id.action_menuFragment_to_squareAreaFragment);
+        NavHostFragment.findNavController(this).navigate(R.id.action_menuFragment_to_rectangleAreaFragment);
     }
 }
